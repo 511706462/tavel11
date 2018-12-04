@@ -3,50 +3,63 @@
   "data": {
     "swiperList": [{
         "id": "0001",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/700b0y000000lznbsFFC0_640_128_25.jpg"
+        "imgUrl": "http://dimg04.c-ctrip.com/images/700l0y000000lvexk72B5_1536_307_25.jpg",
+        "Url":"https://m.ctrip.com/webapp/you/top/koubei.html"
       },{
         "id": "0002",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/70020w000000kt6tyD28A_640_128_25.jpg"
+        "imgUrl": "http://dimg04.c-ctrip.com/images/700s0q000000gsjcx369C_1536_307_25.png",
+        "Url":"https://accounts.ctrip.com/H5Login/Index?backurl=https%3A%2F%2Fm.ctrip.com&from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fcc%2Findex%3Fbid%3D1%26cid%3D37%26pid%3D1%26isHideNavBar%3DYES%26disable_webview_cache_key%3D1"
       },{
         "id": "0003",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/700k0x000000ll8fgB6E5_640_128_25.jpg"
+        "imgUrl": "http://dimg04.c-ctrip.com/images/70060y000000lvlou6C83_1536_307_25.jpg",
+        "Url":"https://pages.c-ctrip.com/commerce/promote/car/app/201811/singledog/views/index.html?popup=close&autoawaken=open&ts=1541650856019"
       },{
         "id": "0004",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/70060y000000lvlou6C83_640_128_25.jpg"
+        "imgUrl": "http://dimg04.c-ctrip.com/images/700t0z000000mi0k88304_1536_307_25.jpg",
+        "Url":"https://m.ctrip.com/webapp/inn/marketing?ename=pwqgnd&isHideNavBar=YES&channelid=837&disable_webview_cache_key=1"
       },{
         "id": "0005",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/700m0y000000m60y3000A_640_128_25.jpg"
+        "imgUrl": "https://dimg04.c-ctrip.com/images/700f0y000000mdl2o7F3A_1536_307_25.jpg",
+        "Url":"https://m.ctrip.com/webapp/hotel/eventsale/baichengqiandianzhuyouxuanjiudian80yuanqi"
       },{
         "id": "0006",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/700l0y000000lvexk72B5_640_128_25.jpg"
-      },{
-        "id": "0007",
-        "imgUrl": "http://dimg04.c-ctrip.com/images/700b0y000000lznbsFFC0_640_128_25.jpg"
+        "imgUrl": "http://dimg04.c-ctrip.com/images/700s0y000000ml2c9B1F3_1536_307_25.jpg",
+        "Url":"https://m.ctrip.com/webapp/hotel/eventsale/kaoshiyuekaodianzhoubianjiudianteji"
       }],
       "iconsList": [{
         "id": "0001",
         "imgUrl": "static/mock/img/icons/shan.png",
-        "desc": "景点·玩乐"
+        "desc": "景点·玩乐",
+        "Url":"https://m.ctrip.com/webapp/you/sight/0.html?isStreet=yes&ishideheader=true&secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F"
       }, {
         "id": "0002",
         "imgUrl": "static/mock/img/icons/jingdian.png",
-        "desc": "周边游"
+        "desc": "周边游",
+        "Url":"https://m.ctrip.com/webapp/vacations/tour/around?from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F"
       }, {
         "id": "0003",
         "imgUrl": "static/mock/img/icons/meishi.png",
-        "desc": "美食林"
+        "desc": "美食林",
+        "Url":"https://m.ctrip.com/webapp/you/foods/address.html?new=1&ishideheader=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F"
       }, {
         "id": "0004",
         "imgUrl": "static/mock/img/icons/lvyou.png",
-        "desc": "一日游"
+        "desc": "一日游",
+        "Url":"https://m.ctrip.com/webapp/activity/daytour?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F"
       }, {
         "id": "0005",
         "imgUrl": "static/mock/img/icons/gonglve_.png",
-        "desc": "当地攻略"
+        "desc": "当地攻略",
+        "Url":"https://m.ctrip.com/webapp/you/place/2.html?ishideheader=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F"
       }],    
       "gridnavList": [{
         "id": "0001",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/grid-nav-items-hotel.png",
+        "Url":  "https://m.ctrip.com/html5/hotel/",
+        "Url2": "https://m.ctrip.com/webapp/hotel/oversea/?otype=1",
+        "Url3": "https://m.ctrip.com/webapp/hotel/hotsale",
+        "Url4": "https://m.ctrip.com/html5/tuan/",
+        "Url5": "https://m.ctrip.com/webapp/inn/index",
         "desc": "酒店",
         "desc2": "海外酒店",
         "desc3": "特价酒店",
@@ -55,6 +68,11 @@
       }, {
         "id": "0002",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/grid-nav-items-flight.png",
+        "Url":"https://m.ctrip.com/html5/flight/swift/index",
+        "Url2":"https://m.ctrip.com/html5/Trains/",
+        "Url3":"https://m.ctrip.com/html5/flight/swift/index",
+        "Url4":"https://m.ctrip.com/html5/Trains/bus/",
+        "Url5":"https://m.ctrip.com/html5/car/",
         "desc": "机票",
         "desc2": "火车票",
         "desc3": "特价机票",
@@ -63,6 +81,11 @@
       }, {
         "id": "0003",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/grid-nav-items-travel.png",
+        "Url":"https://m.ctrip.com/webapp/vacations/tour/vacations/",
+        "Url2":"https://m.ctrip.com/webapp/ticket/ticket?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
+        "Url3":"https://m.ctrip.com/html5/you/",
+        "Url4":"https://m.ctrip.com/webapp/cruise/index",
+        "Url5":"https://m.ctrip.com/webapp/dingzhi/index?ctm_ref=C_vac_custom&from=null",
         "desc": "旅游",
         "desc2": "门票",
         "desc3": "目的地攻略",
@@ -74,42 +97,52 @@
       "subnavlist": [{
         "id": "0001",
         "icon": "static/mock/img/icons/wifi.png",
+        "Url":"https://m.ctrip.com/webapp/activity/wifi?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "WiFi电话卡"
       }, {
         "id": "0002",
         "icon": "static/mock/img/icons/dunpaibaoxianrenzheng.png",
+        "Url":"https://m.ctrip.com/webapp/vacations/visa/entry?ctm_ref=C_vac_visa&secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "保险·签证"
       }, {
         "id": "0003",
         "icon": "static/mock/img/icons/huobiduihuan.png",
+        "Url":"https://m.ctrip.com/webapp/forex/index?bid=2&1=1&secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "外币兑换"
       }, {
         "id": "0004",
         "icon": "static/mock/img/icons/gouwudai.png",
+        "Url":"https://m.ctrip.com/webapp/gshop/?ctm_ref=M_ps_2home_sl&bid=2&cid=3&pid=1&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "购物"
       }, {
         "id": "0005",
         "icon": "static/mock/img/icons/daoyoufuwu.png",
+        "Url":"https://m.ctrip.com/webapp/vacations/pguider/homepage?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "当地向导"
       }, {
         "id": "0006",
         "icon": "static/mock/img/icons/beibao.png",
+        "Url":"https://m.ctrip.com/webapp/vacations/idiytour/diyindex?navBarStyle=white&secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "自由行"
       }, {
         "id": "0007",
         "icon": "static/mock/img/icons/07.png",
+        "Url":"https://m.ctrip.com/webapp/activity/overseasindex?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "境外玩乐"
       }, {
         "id": "0008",
         "icon": "static/mock/img/icons/xinyongqia.png",
+        "Url":"https://m.ctrip.com/webapp/lipin/money?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "礼品卡"
       }, {
         "id": "0009",
         "icon": "static/mock/img/icons/liqia.png",
+        "Url":"https://m.ctrip.com/webapp/cc/index?bid=8&cid=1&pid=4&secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "信用卡"
       }, {
         "id": "0010",
         "icon": "static/mock/img/icons/icon-test1.png",
+        "Url":"https://m.ctrip.com/webapp/more/?secondwakeup=true&dpclickjump=true&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc": "更多"
       }], 
     "recommendList": [{
@@ -143,21 +176,25 @@
         "id": "0000",
         "class":"",
         "imgUrl": "https://dimg05.c-ctrip.com/images/10020q000000gajaeDB6E_C_360_202.jpg",
+        "Url":"https://m.ctrip.com/webapp/deals/hot?ctm_ref=vdeals_mcindex_hot&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "title": "三亚5日自由行(5钻)·避霾清肺！【销量明星款 暖冬特价】高星价优4晚·甄选热门度假型酒店 | 早订即享多重礼·冲5万人出游 | 避寒度假天堂 冬季平均气温25度以上！",
         "desc": "2352"
       },{
         "id": "0001",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/pic-tmh-02.png",
+        "Url":"https://m.ctrip.com/webapp/deals/index?ctm_ref=vdeals_mcindex_temai&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc":"千款特价",
         "desc2":"走过路过不错过"
         },{
         "id": "0002",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/pic-tmh-04.png",
+        "Url":"https://m.ctrip.com/webapp/deals/activity_special?specialid=175&from=ctrip_home&ctm_ref=vdeals_mcindex_haiwai",
         "desc":"境外精选",
         "desc2":"百元出境游"
         },{
         "id": "0003",
         "imgUrl": "http://pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png",
+        "Url":"https://m.ctrip.com/webapp/deals/deals_list?tabtype=4&grouptype=5&ctm_ref=vdeals_mcindex_zhoubian&from=https%3A%2F%2Fm.ctrip.com%2Fhtml5%2F",
         "desc":"周边玩乐",
         "desc2":"十元度周末"
       }],

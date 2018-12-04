@@ -2,25 +2,30 @@
     <div class="Row">
         <div class="sales-hd">
             <h2 class="title-tmh"></h2>
-            <a class="c_selling">更多</a>
         </div>
         <div class="sales-bd">
             <div class="seckill-box" v-for="item in list.slice(0,1)" :key="item">
+                <a :href="item.Url">
                 <img class="icon_img_style" :src="item.imgUrl" alt="">
                 <p class="sales-title">{{item.title}}</p>
                 <div class="sales-info">¥{{item.desc}}起</div>
+                </a>
             </div>
             <div class="sales-ad-box">
                 <div class="row-box row-box-top" v-for="item in list.slice(1,2)" :key="item">
+                    <a :href="item.Url">
                     <p class="sales-item-title">{{item.desc}}</p>
                     <p class="sales-item-title2">{{item.desc2}}</p>
                     <img class="icon-sales" :src="item.imgUrl" alt="">
+                    </a>
                 </div>
                 <div class="row-box">
                     <div class="sales-list" v-for="item in list.slice(2,4)" :key="item" :class="'sales-list'+item.id">
+                        <a :href="item.Url">
                         <p class="sales-item-title3">{{item.desc}}</p>
                         <p class="sales-item-title4">{{item.desc2}}</p>
                         <img class="icon-sales2" :src="item.imgUrl" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -74,9 +79,11 @@ export default{
 }
 .row-box-top{
     background-color: #f9f9f9;
+    width:100%;
 }
 .icon_img_style {
     width: 100%;
+    height: 70%;
 }
 .sales-title{
 overflow:hidden;
@@ -106,13 +113,14 @@ padding:8px;
 }
 .row-box-top{
     margin-top: 0;
+    position:relative;/*3.父容器使用相对定位，子元素使用绝对定位后，这样子元素的位置不再相对于浏览器左上角，而是相对于父容器左上角*/
 }
-.icon-sales{
-    float: right;
-    width: 25%;
-    position: relative;
-    top: 2px;
-}
+ .icon-sales{
+    width:20%;
+    position: absolute;/*3.父容器使用相对定位，子元素使用绝对定位后，这样子元素的位置不再相对于浏览器左上角，而是相对于父容器左上角*/
+    right: 0;
+    bottom: 0;
+    }
 .sales-item-title{
     position: relative;
     left: 8px;
@@ -120,15 +128,14 @@ padding:8px;
     color:#fd3a51;
     font-weight:700;
     font-size:14px;
-    letter-spacing:.06em;
+    letter-spacing:.0rem;
 }
 .sales-item-title2{
     position: relative;
     left:8px;
     top:16px;
     color:#333;
-    font-size:.28em;
-    line-height:1;
+    font-size:.28rem;
 }
 .sales-list{
     text-align: center;

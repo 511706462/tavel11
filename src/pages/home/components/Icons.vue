@@ -1,10 +1,12 @@
 <template>
   <div class="icons">
-    <div class="icon" v-for="item of list" :key="item.id" onclick="window.open('http://m.ctrip.com/webapp/myctrip/?from=http%3A%2F%2Fm.ctrip.com%2Fhtml5%2F','_self')">
+    <div class="icon" v-for="item of list" :key="item.id">
+      <a :href="item.Url">
       <div class="icon_img">
         <img class="icon_img_style" :src="item.imgUrl" alt="">
       </div>
       <p class="icon_desc">{{item.desc}}</p>
+      </a>
     </div>
   </div>
 </template>

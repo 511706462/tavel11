@@ -1,8 +1,7 @@
 <template>
   <div class="gridnavs">
-
       <div class="allclass" v-for="item of list" :key="item.id" :class="'hotel'+item.id">
-
+        <a :href="item.Url">
         <div class="gridnav11">
           <div class="gridnav_desc">
           <p class="gridnav_desc_style">{{item.desc}}</p>
@@ -11,15 +10,22 @@
            <img class="gridnav_img_style" :src="item.imgUrl" alt="">
           </div>
         </div>
-
+        </a>
         <div class="gridnav12">
+          <a :href="item.Url2">
           <p class="gridnav_desc2">{{item.desc2}}</p>
+          </a>
+          <a :href="item.Url3">
           <p class="gridnav_desc3">{{item.desc3}}</p>
+          </a>
         </div>
-
         <div class="gridnav13">
+          <a :href="item.Url4">
           <p class="gridnav_desc4">{{item.desc4}}</p>
+          </a>
+          <a :href="item.Url5">
           <p class="gridnav_desc5">{{item.desc5}}</p>
+          </a>
         </div>
       </div>
   </div>
@@ -31,6 +37,7 @@ export default{
     list: Array
   }
 }
+
 </script>
 <style scoped>
   .gridnavs img{

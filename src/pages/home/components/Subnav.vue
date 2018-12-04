@@ -1,8 +1,10 @@
 <template>
     <ul class="subnav-entry">
       <li class="subnav" v-for="item of list" :key="item.id">
+        <a :href="item.Url">
         <img class="icon_img_style" :src="item.icon" alt="">
         <p class="subnav_desc">{{item.desc}}</p>
+        </a>
       </li>
     </ul>
 </template>
@@ -38,5 +40,6 @@ export default{
 .subnav p{
   font-size: 10px;
   text-align: center;
+  color: black;
 }
 </style>

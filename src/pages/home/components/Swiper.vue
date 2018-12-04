@@ -3,7 +3,9 @@
     <swiper :options="swiperOption">
       <!-- slides -->
       <swiper-slide v-for="item in list" :key="item.id">
+        <a :href="item.Url">
         <img class="swiper_img" :src="item.imgUrl" alt="">
+        </a>
       </swiper-slide>
       <!-- Optional controls -->
       <div class="swiper-pagination"  slot="pagination"></div>
@@ -21,7 +23,8 @@ export default{
     return {
       swiperOption: {
         pagination: '.swiper-pagination',
-        loop: true
+        loop: true,
+        autoplay:3000
       }
     }
   }
